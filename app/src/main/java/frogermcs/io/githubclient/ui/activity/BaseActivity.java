@@ -11,11 +11,5 @@ import frogermcs.io.githubclient.GithubClientApplication;
  */
 public abstract class BaseActivity extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setupActivityComponent();
-    }
 
-    protected abstract void setupActivityComponent();
 }

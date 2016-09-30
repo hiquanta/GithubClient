@@ -10,10 +10,5 @@ import javax.inject.Singleton;
  */
 public class Validator {
 
-    public Validator() {
-    }
 
-    public boolean validUsername(String username) {
-        return !TextUtils.isEmpty(username);
-    }
 }

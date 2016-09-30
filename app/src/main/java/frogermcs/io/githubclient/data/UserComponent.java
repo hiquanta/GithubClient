@@ -12,15 +12,8 @@ import frogermcs.io.githubclient.ui.activity.module.SplashActivityModule;
 /**
  * Created by Miroslaw Stanek on 23.06.15.
  */
-@UserScope
-@Subcomponent(
-        modules = {
-                UserModule.class
-        }
-)
+
 public interface UserComponent {
 
-    RepositoriesListActivityComponent plus(RepositoriesListActivityModule module);
 
-    RepositoryDetailsActivityComponent plus(RepositoryDetailsActivityModule module);
 }

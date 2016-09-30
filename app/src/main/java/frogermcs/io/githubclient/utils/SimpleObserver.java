@@ -6,6 +6,7 @@ import rx.Observer;
  * Created by Miroslaw Stanek on 23.04.15.
  */
 public class SimpleObserver<T> implements Observer<T> {
+
     @Override
     public void onCompleted() {
 

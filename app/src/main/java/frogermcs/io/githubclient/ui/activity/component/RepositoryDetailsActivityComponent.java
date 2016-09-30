@@ -8,12 +8,8 @@ import frogermcs.io.githubclient.ui.activity.module.RepositoryDetailsActivityMod
 /**
  * Created by Miroslaw Stanek on 23.04.15.
  */
-@ActivityScope
-@Subcomponent(
-        modules = RepositoryDetailsActivityModule.class
-)
+
 public interface RepositoryDetailsActivityComponent {
 
-    RepositoryDetailsActivity inject(RepositoryDetailsActivity repositoryDetailsActivity);
 
 }

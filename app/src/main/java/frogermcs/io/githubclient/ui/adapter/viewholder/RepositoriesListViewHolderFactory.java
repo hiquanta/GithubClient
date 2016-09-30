@@ -8,5 +8,5 @@ import android.view.ViewGroup;
  */
 
 public interface RepositoriesListViewHolderFactory {
-    RecyclerView.ViewHolder createViewHolder(ViewGroup parent);
+
 }
