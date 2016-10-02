@@ -19,4 +19,8 @@ import frogermcs.io.githubclient.utils.AnalyticsManager;
 
 public class RepositoryDetailsActivity extends BaseActivity {
 
+    @Override
+    protected void setupActivityComponent() {
+
+    }
 }

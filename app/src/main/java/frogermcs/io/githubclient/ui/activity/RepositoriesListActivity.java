@@ -22,4 +22,8 @@ import frogermcs.io.githubclient.ui.adapter.RepositoriesListAdapter;
 
 public class RepositoriesListActivity extends BaseActivity {
 
+    @Override
+    protected void setupActivityComponent() {
+
+    }
 }

@@ -2,9 +2,6 @@ package frogermcs.io.githubclient.data.api.response;
 
 import java.util.Date;
 
-/**
- * Created by Miroslaw Stanek on 22.04.15.
- */
 public class UserResponse {
     public String login;
     public long id;
